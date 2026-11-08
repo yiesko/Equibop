@@ -14,6 +14,7 @@ import { isMac } from "renderer/utils";
 import { AutoStartToggle } from "./AutoStartToggle";
 import { DeveloperOptionsButton } from "./DeveloperOptions";
 import { DiscordBranchPicker } from "./DiscordBranchPicker";
+import { GameDetectionSourcePicker } from "./GameDetectionSourcePicker";
 import { NotificationBadgeToggle } from "./NotificationBadgeToggle";
 import { OutdatedVesktopWarning } from "./OutdatedVesktopWarning";
 import { Updater } from "./Updater";
@@ -149,7 +150,8 @@ const SettingsOptions: Record<string, Array<BooleanSetting | SettingsComponent>>
             key: "arRPC",
             title: "Rich Presence",
             description: "Lets games and apps connect to Equibop for Rich Presence and game detection"
-        }
+        },
+        GameDetectionSourcePicker
     ],
     Miscellaneous: [
         {
