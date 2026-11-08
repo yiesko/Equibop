@@ -8,6 +8,7 @@ import { startIpcTransport } from "./ipc";
 import { CloseCode, RpcConnection, RpcHandlers, TransportHost } from "./types";
 import { startWebSocketTransport } from "./websocket";
 
+export * from "./bridge";
 export * from "./games";
 export * from "./types";
 
