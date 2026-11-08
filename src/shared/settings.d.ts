@@ -28,6 +28,8 @@ export interface Settings {
     hardwareVideoAcceleration: boolean;
     hardwareVideoEncoding: boolean;
     arRPC: boolean;
+    gameDetectionSource: "builtin" | "external";
+    externalBridgeUrl: string;
     appBadge: boolean;
     badgeOnlyForMentions: boolean;
     enableTaskbarFlashing: boolean;

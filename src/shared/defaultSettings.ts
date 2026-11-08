@@ -27,6 +27,8 @@ export const DefaultEquibopSettings: Settings = {
     disableSmoothScroll: false,
     enableTaskbarFlashing: false,
     arRPC: false,
+    gameDetectionSource: "builtin",
+    externalBridgeUrl: "ws://127.0.0.1:1337?format=json",
     openLinksWithElectron: false,
     middleClickAutoscroll: false,
     autoStartMinimized: false,
